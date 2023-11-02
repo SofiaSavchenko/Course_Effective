@@ -40,6 +40,7 @@ object AppTheme {
         val lightGray1 = Color(0xFFFFFFFF)
         val lightWhite = Color(0xFFEEF2FB)
         val darkWhite= Color(0xFFA8ADB7)
+        val gray = Color(0xFF45454D)
     }
 
     object TextStyle {
