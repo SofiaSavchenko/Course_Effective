@@ -20,6 +20,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -103,17 +104,3 @@ fun ScenesGamePreview() {
         ScenesGame()
     }
 }
-
-
-//@Preview()
-//@Composable
-//
-//fun ScenesGamePreview(){
-//    VideoPreviewRow(
-//        previewResList = listOf(
-//            R.drawable.bg_video_preview1,
-//            R.drawable.bg_video_preview2,
-//        ),
-//        contentPadding = PaddingValues(start = 24.dp, end = 24.dp)
-//    )
-//}
